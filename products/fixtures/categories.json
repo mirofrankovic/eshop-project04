@@ -1,0 +1,74 @@
+[
+    {
+      "pk": 1,
+      "model": "products.category",
+      "fields": {
+        "name": "blends",
+        "friendly_name": "Blends"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "products.category",
+      "fields": {
+        "name": "decaf",
+        "friendly_name": "Decaf"
+      }
+    },
+    {
+      "pk": 3,
+      "model": "products.category",
+      "fields": {
+        "name": "single_origin",
+        "friendly_name": "Single_Origin"
+      }
+    },
+    {
+      "pk": 4,
+      "model": "products.category",
+      "fields": {
+        "name": "tables",
+        "friendly_name": "Tables"
+      }
+    },
+    {
+      "pk": 5,
+      "model": "products.category",
+      "fields": {
+        "name": "seating",
+        "friendly_name": "Seating"
+      }
+    },
+    {
+      "pk": 6,
+      "model": "products.category",
+      "fields": {
+        "name": "coffee_maschines",
+        "friendly_name": "Coffee_Maschines"
+      }
+    },
+    {
+      "pk": 7,
+      "model": "products.category",
+      "fields": {
+        "name": "new_arrivals",
+        "friendly_name": "New_Arrivals"
+      }
+    },
+    {
+      "pk": 8,
+      "model": "products.category",
+      "fields": {
+        "name": "deals",
+        "friendly_name": "Deals"
+      }
+    },
+    {
+      "pk": 9,
+      "model": "products.category",
+      "fields": {
+        "name": "clearance",
+        "friendly_name": "Clearance"
+      }
+    }
+  ]
