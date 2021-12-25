@@ -94,6 +94,22 @@ body {
 }
 
 
+/* --- Footer --- */
+
+.page-footer {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    opacity: 3;
+}
+
+.footer-copyright {
+    background-color: var(--nav-bg-color);
+}
+
+
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
