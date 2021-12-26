@@ -10,6 +10,10 @@ body {
     font-family: 'Lato';
 }
 
+#topnav {
+    background-color: rgb(202, 142, 86); 
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -97,12 +101,12 @@ body {
 /* --- Footer --- */
 
 .page-footer {
-    background-color: #fff;
+    background-color: rgb(202, 142, 86);
     position: fixed;
     width: 100%;
     left: 0;
     bottom: 0;
-    opacity: 3;
+    opacity: 1;
 }
 
 .footer-copyright {
