@@ -64,8 +64,7 @@ def adjust_mybag(request, item_id):
             del bag[item_id]['items_by_warranty'][warranty]
             if not bag[item_id]['items_by_warranty']:
                 bag.pop(item_id)
-            messages.success(request, f'Removed warranty {warranty.upper()} {product.name} from your bag')
-            
+            messages.success(request, f'Removed warranty {warranty.upper()} {product.name} from your bag')           
         
     else:
         if quantity > 0:
@@ -74,8 +73,7 @@ def adjust_mybag(request, item_id):
             
         else:
             bag.pop(item_id)
-            messages.success(request, f'Removed {product.name} from your bag')
-            
+            messages.success(request, f'Removed {product.name} from your bag')           
 
     request.session['bag'] = bag
     return redirect(reverse('view_bag'))
