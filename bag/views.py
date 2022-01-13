@@ -22,8 +22,8 @@ def add_to_mybag(request, item_id):
     bag = request.session.get('bag', {})
 
     if warranty:
-        if item_id in list(cart.keys()):
-            if warranty in cart[item_id]['items_by_warranty'].keys():
+        if item_id in list(bag.keys()):
+            if warranty in bag[item_id]['items_by_warranty'].keys():
                 bag[item_id]['items_by_warranty'][warranty] += quantity
                 messages.success(
                     request, f'Updated warranty {warranty.upper()} {product.name} quantity to {bag[item_id]["items_by_warranty"][warranty]}')
