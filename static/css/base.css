@@ -195,7 +195,7 @@ a.category-badge > span.badge:hover {
 
 
 /* --- Footer --- */
-
+/* 
 .page-footer {
     background-color: rgb(202, 142, 86);
     position: fixed;
@@ -203,7 +203,7 @@ a.category-badge > span.badge:hover {
     left: 0;
     bottom: 0;
     opacity: 1;
-}
+} */
 
 .footer-copyright {
     background-color: var(--nav-bg-color);
