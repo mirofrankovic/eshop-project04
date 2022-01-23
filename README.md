@@ -1,4 +1,4 @@
-# Eshop for Coffe lovers |  MS04
+# Eshop for Coffee lovers |  MS04
 
 ## Code Institute Brief
 
