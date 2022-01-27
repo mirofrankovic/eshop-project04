@@ -32,6 +32,11 @@ The goal of this project is to create a Full Stack web application to utterly de
 
 **Wireframes**
 
+Mock-ups were created early on in this project and added to my project recently.
+
+I've used [Balsamiq Wireframes](https://balsamiq.com/) during the Scope Plane part of the design and planning process for this project.
+![wireframes4](https://user-images.githubusercontent.com/28025554/151435561-56d8fec7-86b7-4434-a9ad-23001b010def.PNG)
+
 
 ## Demo
 
