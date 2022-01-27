@@ -82,6 +82,117 @@ A 'must' have necessity to prevent edit/delete a product by mistake.
 * [Jinja](https://jinja.palletsprojects.com/en/2.10.x/)
    Templating language for Python, to display back-end data in HTML.  
 
+**Libraries and Frameworks**
+
+* [Django](https://www.djangoproject.com/) - Python framework for building the project.
+
+* [Bootstrap](https://www.bootstrapcdn.com/) - As the front-end framework for layout and design.
+
+* [Google Fonts](https://fonts.google.com/) - To improve and import fonts.
+
+* [FontAwesome](https://fontawesome.com/) - To provide icons used across the project.
+
+* [JQuery](https://jquery.com/) - To simplify DOM manipulation and to initialize Bootstrap functions.
+
+* [Gunicorn](https://pypi.org/project/gunicorn/) -  A Python WSGI HTTP Server to enable deployment to Heroku.
+
+* [Psycopg2](https://pypi.org/project/psycopg2/) - To enable the PostgreSQL database to function with Django.
+
+* [Stripe](https://stripe.com/ie) - To handle financial transactions.
+
+* [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/) - To style Django forms.
+
+**Tools**
+
+* [Gidpod](https://www.gitpod.io/) - An online IDE for developing this project.
+
+* [GitHub](https://github.com/) - Is for the hosting for software development control version using Git.
+
+* [Am I Respensive](http://ami.responsivedesign.is/) - To show responsiveness and to create the images portrait in this readme file.
+
+* [PIP](https://pip.pypa.io/en/stable/installation/) - For installation of necessary tools.
+
+* [AWS S3 Bucket](https://aws.amazon.com/) - To store static and media files in prodcution.
+
+* [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) - For compatibility with AWS.
+
+* [Travis](https://travis-ci.org/) - For integration testing.
+
+* [Cloudinary](https://cloudinary.com/homepage-1-25-22) - To host images used in README and also product's images to provide URLs.
+
+* [Unsplash](https://unsplash.com/) - To download images for the products and landing page.
+
+* [Balsamiq] (https://balsamiq.com/) - To create wireframes.
+
+**Databases**
+
+* [SQlite3](https://www.sqlite.org/index.html) - A development database.
+
+* [PostgresSQL](https://www.postgresql.org/) - A production database.
+
+Database related:
+
+**Version Control**
+
+* [GitHub](https://github.com/) - As a remote repository to push and store the committed changes to my project from Git.
+
+**Hosting**
+
+* [Heroku](https://www.heroku.com/) - As the hosting platform to deploy my app.
+
+## Testing
+
+**Manual Testing**
+
+Devices and Platforms used for testing:
+
+* Google Chrome
+* Mozila Firefox
+* Opera
+
+**Validation**
+
+* **Front End**
+
+* [W3C Markup Validation Service](https://validator.w3.org/)
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+* [JSHint](https://jshint.com/)
+
+* **Back End**
+
+* [PEP8 Online](http://pep8online.com/) Was used to validate Python.
+
+* Responsive Testing
+
+The app was tested on Apple iPhone 6, Apple iPad Air 2 and also using the Google Chrome inspect feature to test for repsonsiveness and any errors that occurred.
+
+* The main issue which was found was with requiremnts.txt. Before I started browsing my project I have to uninstall all requiremtns `pip3 uninstall -y -r <(pip3 freeze)` and bact to install requirements.txt `pip3 install -r requirements.txt`
+
+## Deployment
+
+The 'ESHOP Coffee' project was developed using the [GitPod](https://www.gitpod.io/) online IDE and using Git & GitHub for version control. It is hosted on the [Heroku](https://www.heroku.com/) platform, with static files on Gitpod and user-uploaded images being hosted in AWS S3 Basket.
+
+**Local Deployment**
+
+To be able to run this project, the following tools have to be installed:
+
+* An IDE of your choice (I used [GitPod](https://www.gitpod.io/) for creating this project)
+
+* [Git](https://git-scm.com/)
+* [PIP](https://pip.pypa.io/en/stable/installing/)
+* [Python3](https://www.python.org/download/releases/3.0/)
+
+Apart from that, you also need to create accounts with the following services:
+
+* [Stripe](https://stripe.com/en-ie)
+* [AWS](https://aws.amazon.com/) to set up [S3 backet](https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-bucket.html)
+* [Gmail](https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=1209600&osid=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin)
+
+**Directions**
+
+1. You can clone this repository directly into the editor of your choice by pasting the following command into the terminal:
+
+
 
 
 UX
