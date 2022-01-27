@@ -108,7 +108,7 @@ A 'must' have necessity to prevent edit/delete a product by mistake.
 
 * [GitHub](https://github.com/) - Is for the hosting for software development control version using Git.
 
-* [Am I Respensive](http://ami.responsivedesign.is/) - To show responsiveness and to create the images portrait in this readme file.
+* [Am I Responsive](http://ami.responsivedesign.is/) - To show responsiveness and to create the images portrait in this readme file.
 
 * [PIP](https://pip.pypa.io/en/stable/installation/) - For installation of necessary tools.
 
