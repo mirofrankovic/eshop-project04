@@ -58,6 +58,58 @@ The structure of the site is described in the section below:
 
 **Home Page - serves as the initial landing page for all users**
 
+* **Navigation bar (mobile top header)** - - The navbar links vary depending on whether the user is logged in or not. When the user is logged in the `Profile`, `Logout` and `Product Management` links are shown.
+* **Search** - The search function allows the user to search by keywords or filter by price, name, rating and category.
+* **Main-nav** with quick links to the main pages: `home`, `all products`, `category_name` and `search function`, including also `accounts` that are displayed on every viewport. Landing page with a simple and intuitive response for every type of user to become a potential client, seen on most common viewport.
+![navbarE](https://user-images.githubusercontent.com/28025554/151610220-6094d3c5-79ec-454c-8642-64d88bf0cd1a.PNG)
+
+**Login/Register page**
+
+* Allow new user to register for an account and allow existing users to login to their account.
+* **Register** - User must provide a unique username and email address, which are checked against existing entries in the database. An email address and password is required, which must be entered twice to check it has been input correctly.
+* **Message** - On successfully registering the user will be redirected to the home page. An alert message will notify the user that the account has been created and they are now logged in.
+* The login page only requires the user to input there username and password. There is a link to the register page so a user can create an account, and a password reset link if a user has forgotten or lost their password and remember checkbox to store logging details.
+![SignIn](https://user-images.githubusercontent.com/28025554/151611069-247255b4-cf74-456c-9040-e1ee893dff27.PNG)
+
+**Products page**
+
+* All users are able to view this page, displays a general information about all the available products.
+* Products can be viewed either by using `all products` or by simply clicking the `shop now` button from home page.
+* Services count number informs the user the current services total.
+* Sort box functionality added to filter by price, name, rating, category.
+* Individual product can be added to the bag.
+![products](https://user-images.githubusercontent.com/28025554/151612054-121717c9-6840-4abb-9174-43086b3dc977.PNG)
+
+**Product details page**
+![productDet](https://user-images.githubusercontent.com/28025554/151612460-b2bb3e59-7ac8-4beb-96fe-cd5ae74ec4ec.PNG)
+
+**Shopping cart page**
+
+* **Your items** - Display a summary of the item in the bag where each product has a name, brand, warranty, SKU(number_id) and price attached.
+* **Edit quantity** - User can amend the quantity of the services by clicking the '-' or '+' to increasing or decreasing the quantity in cart.
+* **Remove from shopping bag** - Allows the user to remove the service from the bag.
+* **Continue shopping** - Redirects the user back to the browse all products page to continue shopping.
+![checkout](https://user-images.githubusercontent.com/28025554/151613241-e51f5b85-f040-4c22-837e-9e163b3751e4.PNG)
+
+**Checkout page**
+
+* **Order summary** - Display a summary of the products in the bag with each product showing the an image, title, brand, warranty, quantity and price.
+* **Pay with card** - Allows the user to make a card payment.
+* **Stripe** - Allows the user to pay securely using Stripe payment
+* **Purchase Form** - This form connects to the Stripe API to process a user's card details. No card details are stored locally or on the server, they are only sent to Stripe and then discarded.
+![checkoutp](https://user-images.githubusercontent.com/28025554/151614296-01966625-87d0-4a27-ad02-07e3437c96e4.PNG)
+
+**Checkout Success page**
+
+* **Thank You page** - User receives confirmation that the order has been placed and is given a order reference number.
+* **Email** - User receives email confirmation there order has been placed and receives a order summary.
+![ordere](https://user-images.githubusercontent.com/28025554/151615366-b59a3769-94de-4266-8648-5f1d48b8f33a.PNG)
+
+
+
+
+
+
 
 ## Features Left to Implement
 
