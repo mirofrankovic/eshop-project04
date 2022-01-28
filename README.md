@@ -121,8 +121,6 @@ A 'must' have necessity to prevent edit/delete a product by mistake.
 
 * [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) - For compatibility with AWS.
 
-* [Travis](https://travis-ci.org/) - For integration testing.
-
 * [Cloudinary](https://cloudinary.com/homepage-1-25-22) - To host images used in README and also product's images to provide URLs.
 
 * [Unsplash](https://unsplash.com/) - To download images for the products and landing page.
@@ -233,7 +231,7 @@ To deploy the project to [Heroku](https://www.heroku.com/) the following steps n
 1. Create a **requirement.txt** file, which contains a list of the dependencies, using the following command in the terminal:
 `pip3 freeze > requirements.txt`
 2. Create a **Procfile**, in order to tell Heroku how to run the project, using the following command in the terminal:
-`web: gunicorn timeless_men.wsgi:application`
+`web: gunicorn eshop.wsgi:application`
 3. `git add`, `git commit` and `git push` these files to GitHub repository.
 NOTE: these 1-3 steps already done in this project and included in the GitHub repository, but ilustrated here as they are required for the successfull deployment to Heroku.
 As well as that, other things that are required for the Heroku deployment and have to be installed: **gunicorn** (WSGI HTTP Server), **dj-database-url** for database connection and **Psycopg** (PostgreSQL driver for Python). All of the mentioned above are already installed in this project in the requirements.txt file.
@@ -276,6 +274,25 @@ Alternatively, in the terminal you can run:
 **Hosting media files with AWS**
 
 The **static files** and **media files** (that will be uploaded by superuser - product/product images) are hosted in the [AWS S3 Bucket](https://aws.amazon.com/). To host them, you need to create an account in AWS and create your S3 basket with public access. More about setting it up you can read in [Amazon S3 documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-bucket.html) and this [tutorial](https://django-storages.readthedocs.io/en/latest/backends/amazon-S3.html).
+
+
+# Credits
+## Content and Media
+
+* The inspiration came from the [Coffee Island](https://www.coffeeisland.co.uk/) website.
+
+## Acknowledgements
+
+**Tutorials**
+
+[https://www.tutorialspoint.com](https://www.tutorialspoint.com/index.htm)
+
+[https://stackoverflow.com](https://stackoverflow.com/)
+
+
+## In Conclusion
+
+* I would like to thank my mentor Guido Cecilio Garcia Bernal and the Code Institute for their support. 
 
 
 UX

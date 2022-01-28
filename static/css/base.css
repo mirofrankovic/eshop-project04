@@ -308,3 +308,7 @@ input[name='q']::placeholder {
         height: calc(100vh - 116px);
     }
 }
+
+.order-confirmation-wrapper{
+    background-color: white;
+}
