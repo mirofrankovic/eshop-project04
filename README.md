@@ -96,7 +96,7 @@ The structure of the site is described in the section below:
 * **Order summary** - Display a summary of the products in the bag with each product showing the an image, title, brand, warranty, quantity and price.
 * **Pay with card** - Allows the user to make a card payment.
 * **Stripe** - Allows the user to pay securely using Stripe payment
-* **Purchase Form** - This form connects to the Stripe API to process a user's card details. No card details are stored locally or on the server, they are only sent to Stripe and then discarded.
+* **Purchase Form** - This form connects to the Stripe API to process a user's card details. No card details are stored locally or on the server, they are only sent to Stripe and then discarted.
 ![checkoutp](https://user-images.githubusercontent.com/28025554/151614296-01966625-87d0-4a27-ad02-07e3437c96e4.PNG)
 
 **Checkout Success page**
@@ -104,11 +104,6 @@ The structure of the site is described in the section below:
 * **Thank You page** - User receives confirmation that the order has been placed and is given a order reference number.
 * **Email** - User receives email confirmation there order has been placed and receives a order summary.
 ![ordere](https://user-images.githubusercontent.com/28025554/151615366-b59a3769-94de-4266-8648-5f1d48b8f33a.PNG)
-
-
-
-
-
 
 
 ## Features Left to Implement
@@ -346,29 +341,3 @@ The **static files** and **media files** (that will be uploaded by superuser - p
 
 * I would like to thank my mentor Guido Cecilio Garcia Bernal and the Code Institute for their support. 
 
-
-UX
-Project Goals
-User Stories
-Design
-Wireframes
-Features
-Existing Features
-Features Left to Implement
-Information Architecture
-Database Choice
-Data Modeling
-Technologies Used
-Languages
-Libraries and Frameworks
-Tools
-Databases
-Testing
-Deployment
-Local Deployment
-Heroku Deployment
-Credits
-Code
-Content and Media
-Acknowledgements
-Disclaimer

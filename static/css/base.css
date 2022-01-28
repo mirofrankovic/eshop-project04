@@ -340,3 +340,8 @@ input[name='q']::placeholder {
 .order-confirmation-wrapper{
     background-color: white;
 }
+
+.signup{
+    margin-left: 10rem;
+    margin-top: 10rem;
+}
