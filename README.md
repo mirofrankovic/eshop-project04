@@ -1,6 +1,7 @@
 # Eshop for Coffee lovers |  MS04
 
 The live website can be viewed [ESHOPCOFFEE](https://eshopcoffee.herokuapp.com/)
+
 ![released](https://user-images.githubusercontent.com/28025554/151679327-96307318-23b0-4693-975a-64c9ed26567b.PNG)
 
 ## Code Institute Brief
@@ -27,6 +28,7 @@ The goal of this project is to create a Full Stack web application to utterly de
 * As a coffee lover, I would like to learn where I would be able compare a taste coffee easy and fast to my house.
 * As a coffee lover, I would like to know if I would be able to buy a nice coffee cup.
 * As a coffee lover, I would like to know to buy a nice furniture to my coffee shop.
+* As a coffee lover, I would like to find a link for the many varieties of coffee taste and aroma.
 
 **Audience**
 
@@ -36,12 +38,21 @@ The goal of this project is to create a Full Stack web application to utterly de
 **Wireframes**
 
 Mock-ups were created early on in this project and added to my project recently.
-
 I've used [Balsamiq Wireframes](https://balsamiq.com/) during the Scope Plane part of the design and planning process for this project.
+
+![wireframeProducts](https://user-images.githubusercontent.com/28025554/151721902-7c5563dd-5035-414d-acb0-d6698408e20b.PNG)
+
+
+**Database Schema**
+
+During the development phase I worked with **sqlite3** database which is installed with Django.
+For deployment(production), a **PostgreSQL** database is provided by Heroku as an add-on.
+
+* The **User model** used in this project is provided by Django as a part of defaults `django.contrib.auth.models`. More information about Django’s authentication system can be found [here](https://docs.djangoproject.com/en/3.1/ref/contrib/auth/).
+
+**Data Modelling**
+
 ![wireframes4](https://user-images.githubusercontent.com/28025554/151435561-56d8fec7-86b7-4434-a9ad-23001b010def.PNG)
-
-
-## Demo
 
 
 ## Layout
@@ -108,6 +119,10 @@ The structure of the site is described in the section below:
 * **Email** - User receives email confirmation there order has been placed and receives a order summary.
 ![ordere](https://user-images.githubusercontent.com/28025554/151615366-b59a3769-94de-4266-8648-5f1d48b8f33a.PNG)
 
+**404 and 500 error pages**
+
+Custom 404 and 500 pages contain error messages and error handlers to catch these errors. A custom message with a link allows the user to redirect back to the home page.
+
 
 ## Features Left to Implement
 
@@ -116,6 +131,10 @@ There are some of features left to implement in the future which I could not add
 **Admin: defensive modal**
 
 A 'must' have necessity to prevent edit/delete a product by mistake.
+
+**Social account login (Facebook, Twitter or Instagram)**
+
+This feature allows users to 'log in' using social networks accounts such Google and Facebook. With that feature would enhance user's experience and make the 'login process' easier and faster.
 
 
 ## Technologies Used
