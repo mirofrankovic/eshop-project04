@@ -194,7 +194,7 @@ This feature allows users to 'log in' using social networks accounts such Google
 
 * [Unsplash](https://unsplash.com/) - To download images for the products and landing page.
 
-* [Balsamiq] (https://balsamiq.com/) - To create wireframes.
+* [Balsamiq](https://balsamiq.com/) - To create wireframes.
 
 **Databases**
 
